@@ -1,4 +1,4 @@
-#jpa 기본 세팅 사용됨
+#jpa 기본 세팅 사용됨 기본은 메모리 모드로 사용
 #spring:
 #  datasource:
 #    url: jdbc:h2:tcp://localhost/~/jpashop

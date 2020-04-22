@@ -1,7 +1,7 @@
 # jpashop
 
 
-SpringBoot + JPA 
+SpringBoot + JPA + JunitTest
 
 1. h2 설치 
 
@@ -19,4 +19,13 @@ chmod 755 h2.sh
 
 실행
 ./h2.sh
+
+
+3. lombok 프러그인 설치 
+
+intellij > commnad +shift +a : plugins 검색 > lombok 설치
+
+command + , 입력후 annotation processers > enable annotation check 
+
+restart ide 
 

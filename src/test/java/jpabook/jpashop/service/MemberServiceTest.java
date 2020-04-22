@@ -49,20 +49,51 @@ public class MemberServiceTest {
     @Test (expected = IllegalStateException.class)
     public void test유저_중복가입() throws Exception {
         // given
-        Member member1 = new Member();
+            Member member1 = new Member();
         member1.setName("kalkin");
 
-        Member member2 = new Member();
+    Member member2 = new Member();
         member2.setName("kalkin");
 
         memberService.join(member1);
-        // when
+    // when
         memberService.join(member2);
 
 
-     // then
-        fail("예외가 발생해야 한다.");
-     }
+    // then
+    fail("예외가 발생해야 한다.");
+}
+
+
+    @Test
+    public void test재고증가() throws Exception
+    {
+
+    // given
+
+
+    // when
+
+
+    // then
+
+
+    }
+
+    @Test
+    public void test재고감소() throws Exception
+    {
+
+    // given
+
+
+    // when
+
+
+    // then
+
+
+    }
 
 
 
